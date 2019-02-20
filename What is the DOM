@@ -1,0 +1,11 @@
+JavaScript's global environment is full of controls your code can use to make things happen. 
+These controls come in the form of JavaScript objects and functions. 
+Inside a browser, they allow your code to see and manipulate web pages.
+
+DOM stands for Document Object Model. 
+The DOM is a representation of a webpage that JavaScript can use. 
+Changes that JavaScript makes to the DOM alter the web page.
+
+
+Document Object Model (DOM) represents a webpage that JS can use just like a city map which is a model of a city. 
+Dom is a map of a webpage that JS can use. Unlike the map, the DOM is a live entity which means that any changes to the DOM alters the webpage. 
