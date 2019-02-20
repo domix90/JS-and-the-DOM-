@@ -9,3 +9,10 @@ Changes that JavaScript makes to the DOM alter the web page.
 
 Document Object Model (DOM) represents a webpage that JS can use just like a city map which is a model of a city. 
 Dom is a map of a webpage that JS can use. Unlike the map, the DOM is a live entity which means that any changes to the DOM alters the webpage. 
+
+
+The document is a global object representing HTML content of a webpage.
+In JS you can select particular parts of the webpage by interacting with the document. 
+
+
+Global scope - window object. The main global variable that we can work with is document object. Document is a property of the window object. 
