@@ -7,3 +7,36 @@ myButton.addEventListener('click', () => {
 myHeading.style.color = 'red';
 
 });
+
+
+HTML
+-----------------------------------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phrase Sayer</title>
+  </head>
+  <body>
+    <p><input type="text" id="phraseText"></p>
+    <p><button id="sayPhrase">Say Phrase</button></p>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
+JS
+------------------------------------------
+var button;
+var input;
+
+
+var button = document.getElementById('sayPhrase');
+
+button.addEventListener('click', () => {
+  alert(input.value);
+});
+
+
+
+I can also selcect elements by document.getElementByTagName(''); 
+This puts all elements with the given tag into a collection. This collection is in a array which I can for instance loop through. 
