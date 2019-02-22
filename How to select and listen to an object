@@ -1,4 +1,4 @@
-const myButton = document.getElementById('myButton');
+1. const myButton = document.getElementById('myButton');
 const myHeading = document.getElementById('myHeading');
 
 
@@ -38,5 +38,15 @@ button.addEventListener('click', () => {
 
 
 
-I can also selcect elements by document.getElementByTagName(''); 
-This puts all elements with the given tag into a collection. This collection is in a array which I can for instance loop through. 
+2. I can also selcect elements by document.getElementsByTagName(''); 
+This puts all elements with the given tag into a collection. This collection is in a array which I can for instance loop through.
+
+3. Also  document.getElementsByClassName(''); - in the parethesis I have to pass the name of the class I want to use for this method. 
+
+4. Another form of selecting elements is by using document.querySelector('') and document.querySelectorAll('')
+FOR INSTANCE: 
+
+If I want to select all the items with a particulart class, id, tag name etc I can use document.querySelectorAll('li') 
+which will give me an array of all the items with li tag on the page. 
+
+If I use the same tag (li) on document.querySelector('') it will return ONLY the first item on the page with this TAG. 
