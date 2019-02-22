@@ -57,3 +57,7 @@ To select elements using document.querySelector('') I have to use SELECTORS:
 To select IDs document.querySelector('#xxxx')
 To select Classes document.querySelector('.xxxx')
 To select tags by attributes document.querySelector('[title=label]')
+
+Additional materials for CSS selectors to READ : 
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
