@@ -44,9 +44,16 @@ This puts all elements with the given tag into a collection. This collection is 
 3. Also  document.getElementsByClassName(''); - in the parethesis I have to pass the name of the class I want to use for this method. 
 
 4. Another form of selecting elements is by using document.querySelector('') and document.querySelectorAll('')
+---------------------------------------------
 FOR INSTANCE: 
-
-If I want to select all the items with a particulart class, id, tag name etc I can use document.querySelectorAll('li') 
+---------------------------------------------
+a) If I want to select all the items with a particulart class, id, tag name etc I can use document.querySelectorAll('li') 
 which will give me a collection of all the items with li tag on the page: [<li>xxx</li>, <li>yyy</li>, <li>ooo</li>]
 
-If I use the same tag (li) on document.querySelector('') it will return ONLY the first item on the page with this TAG. 
+b) If I use the same tag (li) on document.querySelector('') it will return ONLY the first item on the page with this TAG. 
+
+To select elements using document.querySelector('') I have to use SELECTORS: 
+
+To select IDs document.querySelector('#xxxx')
+To select Classes document.querySelector('.xxxx')
+To select tags by attributes document.querySelector('[title=label]')
