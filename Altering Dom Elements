@@ -1,0 +1,11 @@
+1. I can change get and change the text of the document by using 
+
+Element.textContent and Element.innerHTML 
+
+While .textContent can only alter the text .innerHTML can alter any Nodes on the page. 
+
+2. Using .type or .className I can change the attributes of an element on the page. 
+
+3. Using .style I change CSS properties of an element inline without the use of external files. The inline gets priority over the external file.
+
+For instance I can make an element like <div> disappear on the page by setting its .style property to .style.display = "none";
