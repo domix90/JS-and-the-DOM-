@@ -13,4 +13,4 @@ For instance I can make an element like <div> disappear on the page by setting i
 
 4. Creating an element with createElement does not make that element appear immediately on the page. 
 
-document.create('h1'); will create a new h1 on the page
+document.createElement('h1'); will create a new h1 on the page
