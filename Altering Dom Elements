@@ -4,8 +4,13 @@ Element.textContent and Element.innerHTML
 
 While .textContent can only alter the text .innerHTML can alter any Nodes on the page. 
 
-2. Using .type or .className I can change the attributes of an element on the page. 
+2. Using .type or .className property I can change the element's class name or type.
 
-3. Using .style I change CSS properties of an element inline without the use of external files. The inline gets priority over the external file.
+3. Using .style property I change style of an element inline without the use of external files. The inline gets priority over the external file.
 
-For instance I can make an element like <div> disappear on the page by setting its .style property to .style.display = "none";
+For instance I can make an element like <div> disappear on the page by setting its .style property to element.style.display = "none";
+
+
+4. Creating an element with createElement does not make that element appear immediately on the page. 
+
+document.create('h1'); will create a new h1 on the page
