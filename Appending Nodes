@@ -1,0 +1,4 @@
+Appending a node is done with "node.appendChild(childElement)" method. - NOTICE THERE ARE NO ' ' marks for passing the CHILD ELEMENT. 
+IF you use the ' ' the code will not work. 
+Node has to be a partent to the child element. 
+
