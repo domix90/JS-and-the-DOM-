@@ -50,3 +50,8 @@ addItemButton.addEventListener('click', () => {
   ul.appendChild(li);
   addItemInput.value = '';
 
+
+In order to remove an element I can use Node.removeChild() 
+
+I also learned that I can access the last item of a particular HTML element by using sudo class, 
+for instance, to access the last element of the LI on the page I can use element.querySelector('li:last-child');
