@@ -36,3 +36,17 @@ addItemButton.addEventListener('click', () => {
   
 });
   
+  
+After doing the above script there is one problem with the text in the input field. It doesn't get cleared automatically. 
+
+What we can use is the .value method within the function so that the value is set to empty string ''. 
+
+We can do it in the following way: 
+
+addItemButton.addEventListener('click', () => {
+  let li = document.createElement('li');
+  let ul = document.getElementsByTagName('ul')[0];
+  li.textContent = addItemInput.value;
+  ul.appendChild(li);
+  addItemInput.value = '';
+
