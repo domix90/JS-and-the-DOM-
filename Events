@@ -1,0 +1,7 @@
+ 
+Event is something a user does do on the web page, like moving the mouse around, scrolling, or clicking a link. 
+Browsers "listen" for events and, with JavaScript, we can do something in response to an event. 
+Browsers respond to mouse, keyboard, touchpad, 
+
+Documentation on Events from Mozilla Developer Network: 
+https://developer.mozilla.org/en-US/docs/Web/Events
