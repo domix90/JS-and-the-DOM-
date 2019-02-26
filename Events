@@ -5,3 +5,5 @@ Browsers respond to mouse, keyboard, touchpad,
 
 Documentation on Events from Mozilla Developer Network: 
 https://developer.mozilla.org/en-US/docs/Web/Events
+
+Functions are FIRST CLASS CITIZENS IN JS - which means that functions can be treated as any other data types such as a number, a string or an object. 
