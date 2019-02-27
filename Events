@@ -7,3 +7,24 @@ Documentation on Events from Mozilla Developer Network:
 https://developer.mozilla.org/en-US/docs/Web/Events
 
 Functions are FIRST CLASS CITIZENS IN JS - which means that functions can be treated as any other data types such as a number, a string or an object. 
+
+Example events: 
+
+mouseover	- A pointing device is moved onto the element that has the listener attached or onto one of its children.
+mouseout	- A pointing device is moved off the element that has the listener attached or off one of its children.
+
+Example of working with events above. 
+I want to change the first letter of the text in the LIs to capital letter when I hover with my mouse onto borders of the element: 
+
+1. First I need to select the DOM item I am interested in: 
+
+let listItems = document.getElementsByTagName ('li')[0];
+
+2. Then I call the event listener on the created variable and pass in the type of the event, and a call-back function (arrow function): 
+
+listItems.addEventListener('mouseover', () => {
+
+(here I am taking the value of the listItems and adding storing it directly back to listItems using assignment operator)
+listItems.textContent =  listItems.textContent.toUpperCase();
+
+} );
