@@ -28,3 +28,10 @@ listItems.addEventListener('mouseover', () => {
 listItems.textContent =  listItems.textContent.toUpperCase();
 
 } );
+
+3. If I want to set all the cases to lowerCase on mouseout I can use the same code with small changes: 
+
+listItems.addEventListener('mouseout', () => {
+listItems.textContent =  listItems.textContent.toLowerCase();
+
+} );
