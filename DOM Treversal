@@ -6,3 +6,13 @@ let paragraph = document.getElementByID('myParagraph');
 I can remove child by using 
 
 parent.removeChild(paragraph);
+
+But the problem is that I do not know what the parent is. So to get a REFERENCE to a parent node I can use 
+
+element.parentNode and assign in to a variable like that: 
+
+let parentToParagraph = paragraph.parentNode;
+
+and then use: 
+
+parentToParagraph.removeChild(paragraph);
