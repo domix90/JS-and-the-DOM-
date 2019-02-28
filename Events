@@ -40,4 +40,13 @@ Event Bubbling and Delegation
 --------------------------------------------------------------
 
 Adding eventListener to a parent element will trigger the event on the child elements as well. And it works the other way round too.
-Adding eventListener to li will also trigger event on ul for example. - This is called bubbling 
+Adding eventListener to li will also trigger event on ul for example. - This is called bubbling. 
+
+So in a above situation, if we call eventListener on ul and the ul has 100 LI how does the browser know which element was clicked? 
+
+listItems.addEventListener('click', () => {
+listItems.textContent =  listItems.textContent.toLowerCase();
+
+When an event handler is fired, it receives the event as an object with methods, and properties. I can check all the various methods and properties of 
+the event on the following page: 
+https://developer.mozilla.org/en-US/docs/Web/API/Event
