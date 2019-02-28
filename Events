@@ -35,3 +35,9 @@ listItems.addEventListener('mouseout', () => {
 listItems.textContent =  listItems.textContent.toLowerCase();
 
 } );
+--------------------------------------------------------------
+Event Bubbling and Delegation 
+--------------------------------------------------------------
+
+Adding eventListener to a parent element will trigger the event on the child elements as well. And it works the other way round too.
+Adding eventListener to li will also trigger event on ul for example. - This is called bubbling 
