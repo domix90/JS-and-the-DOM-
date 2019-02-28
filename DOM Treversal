@@ -1,0 +1,8 @@
+
+If I want to remove paragraph from the dom and I have the following: 
+
+let paragraph = document.getElementByID('myParagraph');
+
+I can remove child by using 
+
+parent.removeChild(paragraph);
