@@ -16,3 +16,24 @@ let parentToParagraph = paragraph.parentNode;
 and then use: 
 
 parentToParagraph.removeChild(paragraph);
+
+How to create a simple event handler for removing items from the DOM on mouse click
+
+/1/let sectionX = document.getElementById('dasdsads');
+
+/2/sectionX.addEventListener ('click', (/3/event) => {
+
+if (event.target.tagName == 'LI') {
+
+/4/ selecting the event target
+ li = event.target; 
+ /5/ now selecting a parent element of the element we want to remove
+ ul = li.parnetNode;
+
+/6/ removing the childElement of the parentElement we found in ul 
+
+ul.removeChild(li);
+
+}
+
+});
